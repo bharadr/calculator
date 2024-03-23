@@ -29,7 +29,7 @@ h1 {
     
 }
 
-.screen {
+#screen {
     min-height: 100px;
     max-height: 100px;
     min-width: 350px;
@@ -37,6 +37,9 @@ h1 {
     border: 2px solid white;
     background-color: rgb(195, 195, 195);
     border-radius: 5px;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
 }
 
 .row {
@@ -50,7 +53,7 @@ h1 {
 }
 
 button {
-    background-color: blanchedalmond;
+    background-color: rgb(73, 92, 67);
     border-radius: 10px;
     min-width: 80px;
     padding: 10px 20px;
@@ -58,6 +61,12 @@ button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px solid silver;
 }
+
+button:active {
+    transform: scale(0.95); /* Slightly reduce the button size */
+    border-color: #003575; /* Optional: Change border color */
+}
+
 
 .operator {
     background-color: rgb(188, 0, 0);
@@ -69,4 +78,5 @@ button {
 
 #clear, #delete {
     background-color: rgb(82, 144, 198);
+    width: 170px;
 }
